@@ -2,6 +2,7 @@
   "name": "project-6-lp-front",
   "private": true,
   "version": "0.0.0",
+
   "scripts": {
     "dev": "vite",
     "build": "vite build",
