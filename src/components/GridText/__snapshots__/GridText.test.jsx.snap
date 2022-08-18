@@ -1,0 +1,147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<GridText /> should render with background 1`] = `
+<div>
+  <div
+    class="sc-jSMfEi iszJCs"
+  >
+    <div
+      class="sc-eCYdqJ dPvALM"
+    >
+      <div
+        class="sc-gsnTZi gWSZqv"
+      >
+        <h2
+          class="sc-bczRLJ hGDuJC"
+        >
+          My Grid
+        </h2>
+        <p
+          class="sc-gKXOVf fitTOq"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugiat provident, qui sequi est ad, eos
+        </p>
+        <div
+          class="sc-dkzDqf bjRFxk"
+        >
+          <div
+            class="sc-hKMtZM doIjWj"
+          >
+            <h3
+              class="sc-bczRLJ fnHBwd"
+            >
+              Teste 1
+            </h3>
+            <p
+              class="sc-gKXOVf fitTOq"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nesciunt! Exercitationem provident est voluptas error, debitis mollitia ipsa voluptatibus optio asperiores praesentium fugit consequatur accusantium nisi, non a nihil sunt?
+            </p>
+          </div>
+          <div
+            class="sc-hKMtZM doIjWj"
+          >
+            <h3
+              class="sc-bczRLJ fnHBwd"
+            >
+              Teste 2
+            </h3>
+            <p
+              class="sc-gKXOVf fitTOq"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nesciunt! Exercitationem provident est voluptas error, debitis mollitia ipsa voluptatibus optio asperiores praesentium fugit consequatur accusantium nisi, non a nihil sunt?
+            </p>
+          </div>
+          <div
+            class="sc-hKMtZM doIjWj"
+          >
+            <h3
+              class="sc-bczRLJ fnHBwd"
+            >
+              Teste 3
+            </h3>
+            <p
+              class="sc-gKXOVf fitTOq"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nesciunt! Exercitationem provident est voluptas error, debitis mollitia ipsa voluptatibus optio asperiores praesentium fugit consequatur accusantium nisi, non a nihil sunt?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`<GridText /> should render without background 1`] = `
+<div>
+  <div
+    class="sc-jSMfEi iszJCs"
+  >
+    <div
+      class="sc-eCYdqJ dPvALM"
+    >
+      <div
+        class="sc-gsnTZi gWSZqv"
+      >
+        <h2
+          class="sc-bczRLJ hGDuJC"
+        >
+          My Grid
+        </h2>
+        <p
+          class="sc-gKXOVf fitTOq"
+        >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugiat provident, qui sequi est ad, eos
+        </p>
+        <div
+          class="sc-dkzDqf bjRFxk"
+        >
+          <div
+            class="sc-hKMtZM doIjWj"
+          >
+            <h3
+              class="sc-bczRLJ fnHBwd"
+            >
+              Teste 1
+            </h3>
+            <p
+              class="sc-gKXOVf fitTOq"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nesciunt! Exercitationem provident est voluptas error, debitis mollitia ipsa voluptatibus optio asperiores praesentium fugit consequatur accusantium nisi, non a nihil sunt?
+            </p>
+          </div>
+          <div
+            class="sc-hKMtZM doIjWj"
+          >
+            <h3
+              class="sc-bczRLJ fnHBwd"
+            >
+              Teste 2
+            </h3>
+            <p
+              class="sc-gKXOVf fitTOq"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nesciunt! Exercitationem provident est voluptas error, debitis mollitia ipsa voluptatibus optio asperiores praesentium fugit consequatur accusantium nisi, non a nihil sunt?
+            </p>
+          </div>
+          <div
+            class="sc-hKMtZM doIjWj"
+          >
+            <h3
+              class="sc-bczRLJ fnHBwd"
+            >
+              Teste 3
+            </h3>
+            <p
+              class="sc-gKXOVf fitTOq"
+            >
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, nesciunt! Exercitationem provident est voluptas error, debitis mollitia ipsa voluptatibus optio asperiores praesentium fugit consequatur accusantium nisi, non a nihil sunt?
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
