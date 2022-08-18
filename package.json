@@ -2,8 +2,6 @@
   "name": "project-6-lp-front",
   "private": true,
   "version": "0.0.0",
-
-
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,6 +11,7 @@
     "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "@styled-icons/material-outlined": "^10.34.0",
     "prop-types": "^15.8.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
