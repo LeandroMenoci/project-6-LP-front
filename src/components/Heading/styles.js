@@ -17,7 +17,7 @@ const titleSize = {
 };
 
 const mediaFont = (theme) => css`
-  @media ${theme.media.letMedium} {
+  @media ${theme.media.lteMedium} {
     font-size: ${theme.font.sizes.xlarge};
   }
 `;

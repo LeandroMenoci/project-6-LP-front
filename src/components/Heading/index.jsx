@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import P from 'prop-types';
 import * as Styled from './styles';
 
@@ -28,4 +27,3 @@ Heading.propTypes = {
   size: P.oneOf(['small', 'medium', 'big', 'huge']),
   uppercase: P.bool,
 };
-

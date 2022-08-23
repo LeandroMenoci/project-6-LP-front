@@ -1,4 +1,5 @@
 import { Menu } from '.';
+
 import linksMock from '../NavLinks/mock';
 
 export default {

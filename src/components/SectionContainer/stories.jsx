@@ -8,16 +8,16 @@ export default {
       <div>
         <h1>SectionContainer</h1>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas
-          laboriosam ducimus velit iure dolore iste? Ex atque hic maiores fuga,
-          nulla rerum? Doloribus accusantium temporibus ullam ea magnam iure
-          consequatur?
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem et
+          deleniti laudantium mollitia aspernatur, ullam iure quasi! Incidunt
+          culpa unde sapiente. Facilis corrupti quod ex voluptatem similique
+          placeat nulla inventore!
         </p>
       </div>
     ),
   },
   argTypes: {
-    children: { type: 'string' },
+    children: { type: '' },
   },
 };
 

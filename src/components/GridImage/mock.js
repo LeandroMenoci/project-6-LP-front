@@ -1,8 +1,8 @@
 export default {
   background: false,
-  title: 'My Grid',
+  title: 'My grid',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam fugiat provident, qui sequi est ad, eos',
+    'Atque doloribus nobis laudantium esse ut, non commodi maxime distinctio veritatis unde',
   grid: [
     {
       altText: 'Teste 1',

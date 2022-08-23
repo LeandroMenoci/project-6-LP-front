@@ -1,12 +1,18 @@
 import P from 'prop-types';
 import * as Styled from './styles';
-import { SectionBackgroud } from '../SectionBackgroud';
+import { SectionBackground } from '../SectionBackground';
 import { Heading } from '../Heading';
 import { TextComponent } from '../TextComponent';
 
-export const GridText = ({ title, description, grid, background = false }) => {
+export const GridText = ({
+  title,
+  description,
+  grid,
+  background = false,
+  sectionId = '',
+}) => {
   return (
-    <SectionBackgroud background={background}>
+    <SectionBackground background={background} sectionId={sectionId}>
       <Styled.Container>
         <Heading size="huge" uppercase colorDark={!background} as="h2">
           {title}
@@ -23,17 +29,19 @@ export const GridText = ({ title, description, grid, background = false }) => {
           ))}
         </Styled.Grid>
       </Styled.Container>
-    </SectionBackgroud>
+    </SectionBackground>
   );
 };
+
 GridText.propTypes = {
+  background: P.bool,
   title: P.string.isRequired,
   description: P.string.isRequired,
-  background: P.bool,
   grid: P.arrayOf(
     P.shape({
       title: P.string.isRequired,
       description: P.string.isRequired,
     }),
   ).isRequired,
+  sectionId: P.string,
 };

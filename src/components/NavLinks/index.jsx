@@ -6,11 +6,12 @@ export const NavLinks = ({ links = [] }) => {
   return (
     <Styled.Container aria-label="Main menu">
       {links.map((link) => (
-        <MenuLink {...link} key={link.link} />
+        <MenuLink key={link.link} {...link} />
       ))}
     </Styled.Container>
   );
 };
+
 NavLinks.propTypes = {
   links: P.arrayOf(
     P.shape({

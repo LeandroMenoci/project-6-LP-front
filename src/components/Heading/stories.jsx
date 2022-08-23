@@ -1,4 +1,5 @@
 import { Heading } from '.';
+
 export default {
   title: 'Heading',
   component: Heading,
@@ -26,6 +27,5 @@ Light.parameters = {
 
 Dark.args = {
   children: 'O texto está claro',
-  light: true,
   colorDark: false,
 };

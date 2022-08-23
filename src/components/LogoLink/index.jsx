@@ -5,13 +5,14 @@ import { Heading } from '../Heading';
 export const LogoLink = ({ text, srcImg = '', link }) => {
   return (
     <Heading size="small" uppercase>
-      <Styled.Container>
+      <Styled.Container href={link}>
         {!!srcImg && <img src={srcImg} alt={text} />}
-        {!srcImg && <span>{text}</span>}
+        {!srcImg && text}
       </Styled.Container>
     </Heading>
   );
 };
+
 LogoLink.propTypes = {
   text: P.string.isRequired,
   srcImg: P.string,

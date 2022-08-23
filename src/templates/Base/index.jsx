@@ -4,18 +4,24 @@ import { Menu } from '../../components/Menu';
 import { Footer } from '../../components/Footer';
 import { GoTop } from '../../components/GoTop';
 
-export const Base = ({ links = [], logoData, footerHtml, children }) => {
+export const Base = ({ links, logoData, footerHtml, children }) => {
+  const handleClick = (e) => {
+    e.preventDefault();
+    window && window.scrollTo(0, 0);
+  };
+
   return (
     <>
       <Menu links={links} logoData={logoData} />
       <Styled.Container>
         {children}
-        <Footer html={footerHtml} />
+        <Footer footerHtml={footerHtml} />
       </Styled.Container>
-      <GoTop />
+      <GoTop handleClick={handleClick} />
     </>
   );
 };
+
 Base.propTypes = {
   children: P.node.isRequired,
   ...Menu.propTypes,
